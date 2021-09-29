@@ -41,7 +41,7 @@ We populate the "Total Projects" column with the help of the Excel SUM() functio
 
 <img src="resources/outcomes.PNG" width="650" /> 
 
-Finally, we can visualize the Outcomes-based on Goals with a line chart with the selection of the columns: Goal, Percentage Successful, Percentage Failed, Percentage Canceled. At a glance, we can see that projects with less than USD 1,000.00 of goal are the most successful while the projects with dollar-amount from USD 45,000.00 to $49,000.00 are most susceptible to failure. 
+Finally, we can visualize the Outcomes-based on Goals with a line chart with the selection of the columns: Goal, Percentage Successful, Percentage Failed, Percentage Canceled. At a glance, we can see that projects with less than USD 1,000.00 of goal are likely successful, while the projects with dollar-amount from USD 45,000.00 to $49,000.00 are most susceptible to failure 
 
 <img src="resources/Outcomes_vs_Goals.png" width="650" />
 
