@@ -16,34 +16,34 @@ The beginning of the analysis of outcomes based on launch date is the adjustment
 
 The next step is the pivot table creation from the Kickstarter worksheet with the columns "Year" and "Parent Category" as filters, the "outcomes" as the column, the "Date Created Conversion" as rows, and, again, outcomes as values but configured as count field.
 
-![image_name](https://github.com/dortegas/kickstarter-analysis/blob/main/resources/pivot_fields.PNG)
+<img src="resources/pivot_fields.PNG" width="300" /> 
 
 In the pivot table, we use the "Parent category" filter with the "theater" option to get the category campaigns related to plays. The total general results are 839 successful campaigns, 493 failed, and 37 canceled, according to the dataset period from May 2009 to March 2017.
 
-![image_name](https://github.com/dortegas/kickstarter-analysis/blob/main/resources/pivot_parentFilter.PNG)
+<img src="resources/pivot_parentFilter.PNG" width="300" />
 
 Finally, we can visualize the relationship between outcomes and the launch month from the pivot table with a line dynamic chart with markers. At a glance, we can see that there are more successful theater campaigns than failed and canceled.
 
-![image_name](https://github.com/dortegas/kickstarter-analysis/blob/main/resources/Theater_Outcomes_vs_Launch.PNG)
+<img src="resources/Theater_Outcomes_vs_Launch.PNG" width="650" />
 
 
 ### Analysis of Outcomes Based on Goals
 
 The analysis of outcomes based on goals is sustained in the visualization of the percentage of successful, failed, and canceled plays related to the funding goal amount. Therefore, we need to organize the funding goal of projects in dollar-amount ranks, and so we can group them for the analysis. The dollars-amounts established are shown in the following image.
 
-![image_name](https://github.com/dortegas/kickstarter-analysis/blob/main/resources/dollar_amount.PNG)
+<img src="resources/dollar_amount.PNG" width="300" /> 
 
 Due to the Kickstarter dataset structure, we need to collect the outcome and goal data for the “plays” subcategory through the Excel COUNTIFS() function. With the collection of goal data for every outcome, we can calculate the percentage of successful, failed, and canceled plays. 
 
-![image_name](https://github.com/dortegas/kickstarter-analysis/blob/main/resources/countifs.PNG)
+<img src="resources/countifs.PNG" width="300" />
 
 We populate the "Total Projects" column with the help of the Excel SUM() function, which adds up the number of successful, failed, and canceled projects for each row. In this way, now the percentage of the outcomes based on Goals is possible to calculate. The percentage value for every Outcome is calculated based on the "Total Projects" amount for every row: (value/Total Projects) * 100%
 
-![image_name](https://github.com/dortegas/kickstarter-analysis/blob/main/resources/outcomes.PNG)
+<img src="resources/outcomes.PNG" width="300" /> 
 
 Finally, we can visualize the Outcomes-based on Goals with a line chart with the selection of the columns: Goal, Percentage Successful, Percentage Failed, Percentage Canceled. At a glance, we can see that projects with less than USD 1,000.00 of goal are the most successful while the projects with dollar-amount from USD 45,000.00 to $49,000.00 are most susceptible to failure. 
 
-![image_name](https://github.com/dortegas/kickstarter-analysis/blob/main/resources/Outcomes_vs_Goals.PNG)
+<img src="resources/Outcomes_vs_Goals.PNG" width="650" />
 
 ### Challenges and Difficulties Encountered
 
