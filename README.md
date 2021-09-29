@@ -31,7 +31,7 @@ Finally, we can visualize the relationship between outcomes and the launch month
 
 The analysis of outcomes based on goals is sustained in the visualization of the percentage of successful, failed, and canceled plays related to the funding goal amount. Therefore, we need to organize the funding goal of projects in dollar-amount ranks, and so we can group them for the analysis. The dollars-amounts established are shown in the following image.
 
-<img src="resources/dollar_amount.PNG" width="300" /> 
+<img src="resources/dollar-amount.PNG" width="300" /> 
 
 Due to the Kickstarter dataset structure, we need to collect the outcome and goal data for the “plays” subcategory through the Excel COUNTIFS() function. With the collection of goal data for every outcome, we can calculate the percentage of successful, failed, and canceled plays. 
 
