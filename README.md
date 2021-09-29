@@ -58,6 +58,6 @@ I encountered some difficulties making the Outcomes Based on Goals analysis due 
     - In the beginning, Louis estimated a USD 10,000 budget for her Fever play. However, according to the Kickstarter dataset, projects with less than 1,000.00 USD goals are likely successful.
 
 - What are some limitations of this dataset?
-    - The data could be incomplete, considering the dataset period from 2009 to 2017, which skews both the data and the model toward the assumptions.
+    - The data could be incomplete, considering the dataset period from 2009 to 2017, which skews both the data and the model toward today's assumptions.
 
 - What are some other possible tables and/or graphs that we could create?
