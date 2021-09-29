@@ -20,7 +20,7 @@ The next step is the pivot table creation from the Kickstarter worksheet with th
 
 In the pivot table, we use the "Parent category" filter with the "theater" option to get the category campaigns related to plays. The total general results are 839 successful campaigns, 493 failed, and 37 canceled, according to the dataset period from May 2009 to March 2017.
 
-<img src="resources/pivot_parentFilter.PNG" width="300" />
+<img src="resources/pivot_parentFilter.PNG" width="350" />
 
 Finally, we can visualize the relationship between outcomes and the launch month from the pivot table with a line dynamic chart with markers. At a glance, we can see that there are more successful theater campaigns than failed and canceled.
 
@@ -35,7 +35,7 @@ The analysis of outcomes based on goals is sustained in the visualization of the
 
 Due to the Kickstarter dataset structure, we need to collect the outcome and goal data for the “plays” subcategory through the Excel COUNTIFS() function. With the collection of goal data for every outcome, we can calculate the percentage of successful, failed, and canceled plays. 
 
-<img src="resources/countifs.PNG" width="300" />
+<img src="resources/countifs.PNG" width="450" />
 
 We populate the "Total Projects" column with the help of the Excel SUM() function, which adds up the number of successful, failed, and canceled projects for each row. In this way, now the percentage of the outcomes based on Goals is possible to calculate. The percentage value for every Outcome is calculated based on the "Total Projects" amount for every row: (value/Total Projects) * 100%
 
