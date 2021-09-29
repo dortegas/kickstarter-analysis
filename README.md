@@ -39,7 +39,7 @@ Due to the Kickstarter dataset structure, we need to collect the outcome and goa
 
 We populate the "Total Projects" column with the help of the Excel SUM() function, which adds up the number of successful, failed, and canceled projects for each row. In this way, now the percentage of the outcomes based on Goals is possible to calculate. The percentage value for every Outcome is calculated based on the "Total Projects" amount for every row: (value/Total Projects) * 100%
 
-<img src="resources/outcomes.PNG" width="500" /> 
+<img src="resources/outcomes.PNG" width="650" /> 
 
 Finally, we can visualize the Outcomes-based on Goals with a line chart with the selection of the columns: Goal, Percentage Successful, Percentage Failed, Percentage Canceled. At a glance, we can see that projects with less than USD 1,000.00 of goal are the most successful while the projects with dollar-amount from USD 45,000.00 to $49,000.00 are most susceptible to failure. 
 
