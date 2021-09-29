@@ -12,7 +12,7 @@ We will visualize and analyze campaign outcomes of the Kicktarter dataset based 
 
 The beginning of the analysis of outcomes based on launch date is the adjustment of the Kickstarter dataset with the including "Year" column through the Excel YEAR() function applied to the derived column "Date Created Conversion." In our analysis, the column "Year" is the alternative filter in the dataset visualization.
 
-![image_name](https://github.com/dortegas/kickstarter-analysis/blob/main/resources/year_function.PNG)
+<img src="resources/year_function.PNG" width="300" />
 
 The next step is the pivot table creation from the Kickstarter worksheet with the columns "Year" and "Parent Category" as filters, the "outcomes" as the column, the "Date Created Conversion" as rows, and, again, outcomes as values but configured as count field.
 
