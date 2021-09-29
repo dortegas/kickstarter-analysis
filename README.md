@@ -47,6 +47,8 @@ Finally, we can visualize the Outcomes-based on Goals with a line chart with the
 
 ### Challenges and Difficulties Encountered
 
+I encountered some difficulties making the Outcomes Based on Goals analysis due to the COUNTIFS function settings for every row to calculate the number of successful, failed, and canceled projects. In such a case, I think VBA is the best option to make these calculous between worksheets.  
+
 ## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
