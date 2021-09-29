@@ -31,11 +31,11 @@ Finally, we can visualize the relationship between outcomes and the launch month
 
 The analysis of outcomes based on goals is sustained in the visualization of the percentage of successful, failed, and canceled plays related to the funding goal amount. Therefore, we need to organize the funding goal of projects in dollar-amount ranks, and so we can group them for the analysis. The dollars-amounts established are shown in the following image.
 
-<img src="resources/dollar-amount.PNG" width="300" /> 
+<img src="resources/dollar-amount.PNG" width="150" /> 
 
 Due to the Kickstarter dataset structure, we need to collect the outcome and goal data for the “plays” subcategory through the Excel COUNTIFS() function. With the collection of goal data for every outcome, we can calculate the percentage of successful, failed, and canceled plays. 
 
-<img src="resources/countifs.PNG" width="450" />
+<img src="resources/countifs.PNG" />
 
 We populate the "Total Projects" column with the help of the Excel SUM() function, which adds up the number of successful, failed, and canceled projects for each row. In this way, now the percentage of the outcomes based on Goals is possible to calculate. The percentage value for every Outcome is calculated based on the "Total Projects" amount for every row: (value/Total Projects) * 100%
 
@@ -43,7 +43,7 @@ We populate the "Total Projects" column with the help of the Excel SUM() functio
 
 Finally, we can visualize the Outcomes-based on Goals with a line chart with the selection of the columns: Goal, Percentage Successful, Percentage Failed, Percentage Canceled. At a glance, we can see that projects with less than USD 1,000.00 of goal are the most successful while the projects with dollar-amount from USD 45,000.00 to $49,000.00 are most susceptible to failure. 
 
-<img src="resources/Outcomes_vs_Goals.PNG" width="650" />
+<img src="resources/Outcomes_vs_Goals.png" width="650" />
 
 ### Challenges and Difficulties Encountered
 
