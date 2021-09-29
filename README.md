@@ -59,6 +59,6 @@ I encountered some difficulties making the Outcomes Based on Goals analysis due 
 
 - What are some limitations of this dataset?
     - The data could be incomplete, considering the dataset period from 2009 to 2017, which skews both the data and the model toward today's assumptions.
-    - The target of projects would complement the dataset. In such a way, we could help Louis forecast the best launch date for the Fever play.
+    - The target of projects would complement the dataset. In such a way, we could help Louis estimate the best launch date for the Fever play.
 
 - What are some other possible tables and/or graphs that we could create?
