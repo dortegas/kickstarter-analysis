@@ -63,4 +63,6 @@ I encountered some difficulties making the Outcomes Based on Goals analysis due 
     - The target of projects would complement the dataset. In such a way, we could help Louis estimate the best launch date for the Fever play.
 
 - What are some other possible tables and/or graphs that we could create?
-    - A graph about the length of a campaign compared to outcomes. 
+    - A graph about the length of a campaign compared to outcomes to notice some trend over time
+    - An analysis about what categories the backers are most interested in
+    - A graph with the main categories that raising more money from successful projects.
