@@ -52,7 +52,7 @@ I encountered some difficulties making the Outcomes Based on Goals analysis due 
 ## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
- - On average, 56% of the projects are successful when their launch date is into the three first quarters per year. The period from May to July is when projects are launching most.
+  - On average, 56% of the projects are successful when their launch date is into the three first quarters per year. The period from May to July is when projects are launching most.
 - What can you conclude about the Outcomes based on Goals?
 In the beginning, Louis estimated a $10,000 USD budget for her Fever play
 
